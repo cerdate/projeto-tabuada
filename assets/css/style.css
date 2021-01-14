@@ -1,0 +1,31 @@
+.content-tabuada {
+    width: 100%;
+    text-align: center;
+    max-width: 500px;
+    background-color: #ccc;
+    margin: auto;
+    padding: 20px;
+}
+.content-tabuada td {
+    padding: 10px;
+
+}
+.content-tabuada table {
+    width: 100%;
+}
+.content-tabuada td {
+    padding: .75rem;
+    border-top : 1px solid #DEE2E6;
+}
+.content-tabuada tbody tr:nth-child(odd){ /* odd ou even*/
+    background-color: rgba(0,0,0,.05);
+
+}
+.content-tabuada tbody tr:hover {
+    background-color:rgba(0,0,0,.15);
+    cursor: pointer;
+}
+#valorA { 
+    width: 95%;
+    padding: 10px;
+}
